@@ -19,16 +19,15 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pikzo0.vercel.app"),
   title: {
-    default: "Pixenz - Social Media Platform for Creators",
-    template: "%s | Pixenz",
+    default: "Pixen - Social Media Platform for Creators",
+    template: "%s | Pixen",
   },
-  description: "Pixenz is a next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion.",
+  description: "Pixen is a next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion.",
   keywords: ["social media", "social platform", "creators", "content creators", "social network", "community", "share", "connect", "monetize", "creative platform"],
-  authors: [{ name: "Pixenz" }],
-  creator: "Pixenz",
-  publisher: "Pixenz",
+  authors: [{ name: "Pixen" }],
+  creator: "Pixen",
+  publisher: "Pixen",
   icons: {
     icon: [
       { url: "/icon.png", type: "image/png" },
@@ -43,15 +42,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://pikzo0.vercel.app",
-    title: "Pixenz - Social Media Platform for Creators",
+    title: "Pixen - Social Media Platform for Creators",
     description: "A next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion.",
-    siteName: "Pixenz",
+    siteName: "Pixen",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pixenz - Social Media Platform for Creators",
+    title: "Pixen - Social Media Platform for Creators",
     description: "A next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion.",
-    creator: "@pixenz",
+    creator: "@pixen",
   },
   robots: {
     index: true,

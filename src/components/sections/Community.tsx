@@ -9,14 +9,14 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Content Creator",
     image: "https://i.pravatar.cc/150?img=1",
-    text: "Pixenz has completely transformed how I connect with my audience. The tools are intuitive and the community is incredibly supportive.",
+    text: "Pixen has completely transformed how I connect with my audience. The tools are intuitive and the community is incredibly supportive.",
     color: "#8F8AD6",
   },
   {
     name: "Michael Chen",
     role: "Photographer",
     image: "https://i.pravatar.cc/150?img=12",
-    text: "As a photographer, I love how Pixenz showcases my work. The quality is preserved perfectly and I've gained so many new followers.",
+    text: "As a photographer, I love how Pixen showcases my work. The quality is preserved perfectly and I've gained so many new followers.",
     color: "#A5B4FC",
   },
   {
@@ -30,7 +30,7 @@ const testimonials = [
     name: "David Kim",
     role: "Beta Tester",
     image: "https://i.pravatar.cc/150?img=33",
-    text: "I've been using Pixenz since the beta. The team listens to feedback and keeps improving. It's become my favorite platform.",
+    text: "I've been using Pixen since the beta. The team listens to feedback and keeps improving. It's become my favorite platform.",
     color: "#7DC9C3",
   },
 ];

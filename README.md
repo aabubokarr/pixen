@@ -1,6 +1,8 @@
-# Pixenz - Landing Page
+# Pixen - Landing Page
 
-Welcome to the **Pixenz** landing page project! This is a premium, high-performance landing page for the Pixenz social media mobile application. This README provides an overview of the project, setup instructions, and other relevant details.
+![Pixen](pixen.png)
+
+Welcome to the **Pixen** project! This README provides an overview of the project, setup instructions, and other relevant details.
 
 ## Table of Contents
 
@@ -15,15 +17,16 @@ Welcome to the **Pixenz** landing page project! This is a premium, high-performa
 
 ## Visit
 
-- [Vercel](https://pixenz0.vercel.app/)
+- [Repository](https://github.com/aabubokarr/pixen)
+- [Website](https://aabubokarr.github.io/pixen/)
 
 ## About
 
-**Pixenz** is a next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion. Experience a modern, premium social network designed to inspire meaningful connections and empower creative expression.
+**Pixen** is a next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion. Experience a modern, premium social network designed to inspire meaningful connections and empower creative expression.
 
 ## Features
 
-- Hero Section
+- Modern UI/UX
 - Features Section
 - Showcase Section
 - Community Section
@@ -37,11 +40,11 @@ Welcome to the **Pixenz** landing page project! This is a premium, high-performa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/woabu0/pixenz.git
+   git clone https://github.com/aabubokarr/pixen.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd pixenz
+   cd pixen
    ```
 3. Install dependencies:
    ```bash
@@ -59,7 +62,10 @@ Welcome to the **Pixenz** landing page project! This is a premium, high-performa
 ## Structure
 
 ```
-pixenz/
+pixen/
+├── .github/                    # Github actions
+│   └── workflows/
+│       └── deploy.yml
 ├── src/
 │   ├── app/
 │   │   ├── favicon.ico         # Site favicon
@@ -107,8 +113,8 @@ pixenz/
 ## Contributors
 
 <p align="center">
-  <a href="https://github.com/woabu0/pixenz/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=woabu0/pixenz" alt="Contributors" />
+  <a href="https://github.com/aabubokarr/pixen/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=aabubokarr/pixen" alt="Contributors" />
   </a>
 </p>
 

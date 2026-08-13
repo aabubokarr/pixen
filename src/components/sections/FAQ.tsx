@@ -9,7 +9,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "Is the app free?",
-      answer: "Yes! Pixenz offers a free plan with access to core features. We also have Pro and Creator plans with additional features for users who want more.",
+      answer: "Yes! Pixen offers a free plan with access to core features. We also have Pro and Creator plans with additional features for users who want more.",
     },
     {
       question: "How do you delete your account?",
@@ -24,8 +24,8 @@ export default function FAQ() {
       answer: "You can report users by tapping the three dots on their profile or any of their posts, then selecting 'Report'. Our moderation team reviews all reports within 24 hours.",
     },
     {
-      question: "Can I use Pixenz on multiple devices?",
-      answer: "Yes! You can access your Pixenz account on multiple devices. Simply log in with your credentials on any device.",
+      question: "Can I use Pixen on multiple devices?",
+      answer: "Yes! You can access your Pixen account on multiple devices. Simply log in with your credentials on any device.",
     },
     {
       question: "How do I change my password?",
@@ -52,7 +52,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-white/60 max-w-2xl mx-auto px-4">
-            Everything you need to know about Pixenz
+            Everything you need to know about Pixen
           </p>
         </div>
 

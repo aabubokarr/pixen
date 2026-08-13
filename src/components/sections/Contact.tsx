@@ -37,10 +37,10 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold text-white mb-1">Email</h4>
                     <a
-                      href="mailto:support@pixenz.com"
+                      href="mailto:support@pixen.com"
                       className="text-primary hover:text-primary/80 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-background rounded"
                     >
-                      support@pixenz.com
+                      support@pixen.com
                     </a>
                   </div>
                 </div>

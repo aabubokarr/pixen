@@ -98,7 +98,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4 font-playfair tracking-tight">Pixenz</h3>
+            <h3 className="text-2xl font-bold text-white mb-4 font-playfair tracking-tight">Pixen</h3>
             <p className="text-sm leading-relaxed text-white/60 mb-6 max-w-sm">
               The next generation social platform. Connect with creators, share your story, and inspire the world.
             </p>
@@ -176,7 +176,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <p className="text-white/40 text-sm">
-              Copyright &copy; {currentYear} Pixenz. All rights reserved.
+              Copyright &copy; {currentYear} Pixen. All rights reserved.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-6">

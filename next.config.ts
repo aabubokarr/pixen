@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   compress: true,
   poweredByHeader: false,
+  output: "export",
+
+  basePath: isGitHubPages ? "/pixen" : "",
+
   images: {
     formats: ["image/avif", "image/webp"],
     deviceSizes: [320, 375, 414, 768, 1024, 1440, 1920],
@@ -11,6 +17,7 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

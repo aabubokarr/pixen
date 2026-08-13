@@ -60,9 +60,9 @@ export default function Navbar() {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
             className="text-xl sm:text-2xl font-bold font-playfair tracking-tight text-white flex items-center gap-3 group"
-            aria-label="Pixenz home"
+            aria-label="Pixen home"
           >
-            <div className="w-8 h-8 rounded-lg overflow-hidden group-hover:scale-110 transition-transform duration-300">
+            <div className="w-8 overflow-hidden group-hover:scale-110 transition-transform duration-300">
                <Image 
                  src="/logo.png" 
                  alt="Logo" 
@@ -72,7 +72,7 @@ export default function Navbar() {
                  priority
                />
             </div>
-            Pixenz
+            Pixen
           </a>
 
           {/* Desktop Nav Links */}
