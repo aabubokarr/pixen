@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   compress: true,
   poweredByHeader: false,
   output: "export",
-
+  devIndicators: false,
   basePath: isGitHubPages ? "/pixen" : "",
 
   images: {

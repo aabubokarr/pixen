@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Button from "@/components/ui/Button";
+import { BASE_PATH } from "@/components/lib/config";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -64,7 +65,7 @@ export default function Navbar() {
           >
             <div className="w-8 overflow-hidden group-hover:scale-110 transition-transform duration-300">
                <Image 
-                 src="/logo.png" 
+                 src={`${BASE_PATH}/logo.png`}
                  alt="Logo" 
                  width={32}
                  height={32}

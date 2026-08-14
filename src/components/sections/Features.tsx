@@ -3,6 +3,7 @@
 import Image from "next/image";
 import SectionContainer from "@/components/ui/SectionContainer";
 import { UserIcon, FeedIcon, MessageIcon, CameraIcon, VideoIcon } from "@/components/ui/Icons";
+import { BASE_PATH } from "@/components/lib/config";
 
 
 export default function Features() {
@@ -40,7 +41,7 @@ export default function Features() {
             <div className="w-full sm:w-64 h-64 sm:h-auto relative perspective-1000 group-hover:scale-105 transition-transform duration-500 flex justify-center sm:block">
                <div className="absolute top-4 sm:top-4 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:right-0 w-48 sm:w-56 rotate-y-12 rotate-z-6 shadow-2xl rounded-[2rem] overflow-hidden border border-white/10">
                   <Image 
-                    src="/images/feed.png" 
+                    src={`${BASE_PATH}/images/feed.png`}
                     alt="Smart Feed UI" 
                     width={224}
                     height={400}
@@ -112,7 +113,7 @@ export default function Features() {
                {/* Visual: Chat UI image */}
               <div className="relative h-40 mt-4 overflow-hidden rounded-t-2xl border-t border-x border-white/10 bg-[#0C0D10] shadow-2xl group-hover:-translate-y-2 transition-transform">
                  <Image 
-                   src="/images/messaging.png" 
+                   src={`${BASE_PATH}/images/messaging.png`}
                    alt="Messaging UI" 
                    width={400}
                    height={160}
@@ -171,7 +172,7 @@ export default function Features() {
              {/* Visual: Profile Preview */}
              <div className="relative h-48 mt-4 rounded-t-2xl overflow-hidden border-t border-x border-white/10 group-hover:-translate-y-2 transition-transform">
                 <Image 
-                  src="/images/profile.png" 
+                  src={`${BASE_PATH}/images/profile.png`}
                   alt="Profile UI" 
                   width={400}
                   height={192}

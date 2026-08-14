@@ -2,27 +2,28 @@
 
 import SectionContainer from "@/components/ui/SectionContainer";
 import TimelineItem from "@/components/ui/TimelineItem";
+import { BASE_PATH } from "@/components/lib/config";
 
 const showcaseItems = [
   {
     title: "Beautiful Home Feed",
     description: "Discover content tailored to your interests with our intelligent feed algorithm. See what matters most to you, when it matters.",
-    image: "/images/feed.png",
+    image: `${BASE_PATH}/images/feed.png`,
   },
   {
     title: "Seamless Messaging",
     description: "Connect with friends through our elegant messaging interface. Share moments, reactions, and conversations effortlessly.",
-    image: "/images/messaging.png",
+    image: `${BASE_PATH}/images/messaging.png`,
   },
   {
     title: "Creative Profiles",
     description: "Showcase your work with customizable profiles. Express yourself through beautiful layouts and curated content.",
-    image: "/images/profile.png",
+    image: `${BASE_PATH}/images/profile.png`,
   },
   {
     title: "Explore & Discover",
     description: "Find new creators, communities, and content that inspire you. Our discovery engine helps you connect with what you love.",
-    image: "/images/explore.png",
+    image: `${BASE_PATH}/images/explore.png`,
   },
 ];
 

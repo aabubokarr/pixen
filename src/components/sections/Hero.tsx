@@ -3,12 +3,13 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import PhoneMockup from "@/components/ui/PhoneMockup";
+import { BASE_PATH } from "@/components/lib/config";
 
 export default function Hero() {
   const screenshots = [
-    "/images/feed.png",
-    "/images/profile.png",
-    "/images/explore.png",
+    `${BASE_PATH}/images/messaging.png`,
+    `${BASE_PATH}/images/profile.png`,
+    `${BASE_PATH}/images/explore.png`,
   ];
 
   return (
