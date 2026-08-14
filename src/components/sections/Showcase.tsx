@@ -2,7 +2,7 @@
 
 import SectionContainer from "@/components/ui/SectionContainer";
 import TimelineItem from "@/components/ui/TimelineItem";
-import { BASE_PATH } from "@/components/lib/config";
+import { BASE_PATH } from "@/lib/config";
 
 const showcaseItems = [
   {

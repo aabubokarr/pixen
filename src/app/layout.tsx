@@ -28,30 +28,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Pixen" }],
   creator: "Pixen",
   publisher: "Pixen",
-  icons: {
-    icon: [
-      { url: "/icon.png", type: "image/png" },
-    ],
-  },
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://pikzo0.vercel.app",
-    title: "Pixen - Social Media Platform for Creators",
-    description: "A next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion.",
-    siteName: "Pixen",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Pixen - Social Media Platform for Creators",
-    description: "A next-generation social media platform built for creators. Connect with your community, share your story in high fidelity, and monetize your passion.",
-    creator: "@pixen",
-  },
   robots: {
     index: true,
     follow: true,

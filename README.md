@@ -27,13 +27,8 @@ Welcome to the **Pixen** project! This README provides an overview of the projec
 ## Features
 
 - Modern UI/UX
-- Features Section
-- Showcase Section
-- Community Section
-- Highlight Section
-- Download Section
-- FAQ Section
-- Contact Section
+- High Quality Images
+- Support Center
 - Responsive Design
 
 ## Installation
@@ -63,51 +58,53 @@ Welcome to the **Pixen** project! This README provides an overview of the projec
 
 ```
 pixen/
-├── .github/                    # Github actions
+├── .github/                            # Github actions
 │   └── workflows/
 │       └── deploy.yml
-├── src/
-│   ├── app/
-│   │   ├── favicon.ico         # Site favicon
-│   │   ├── icon.png            # App icon
-│   │   ├── globals.css         # Global styles with animations
-│   │   ├── layout.tsx          # Root layout with metadata
-│   │   └── page.tsx            # Main page with all sections
-│   └── components/
-│       ├── sections/
-│       │   ├── Hero.tsx        # Full-screen hero section
-│       │   ├── Features.tsx    # Feature cards grid
-│       │   ├── Showcase.tsx    # Vertical story flow
-│       │   ├── Community.tsx   # Testimonials section
-│       │   ├── Highlight.tsx   # Bold statement section
-│       │   ├── Download.tsx    # CTA download section
-│       │   ├── FAQ.tsx         # Accordion FAQ section
-│       │   ├── Contact.tsx     # Contact form & info
-│       │   └── Footer.tsx      # Multi-column footer
-│       └── ui/
-│           ├── Button.tsx       # Reusable button component
-│           ├── Card.tsx         # Soft dark card component
-│           ├── Navbar.tsx       # Minimal floating navbar
-│           ├── PhoneMockup.tsx # Phone frame component
-│           ├── SectionContainer.tsx # Section wrapper
-│           ├── TimelineItem.tsx # Timeline item component
-│           └── Icons.tsx        # SVG icon components
 ├── public/
-│   ├── images/                 # App screenshots
+│   ├── images/                         # App screenshots
 │   │   ├── explore.png
 │   │   ├── feed.png
 │   │   ├── messaging.png
 │   │   └── profile.png
-│   └── logo.png                # Brand logo
-├── package.json                # Dependencies
-├── package-lock.json           # Dependency lock file
-├── next.config.ts              # Next.js configuration
-├── next-env.d.ts               # Next.js TypeScript declarations
-├── tsconfig.json               # TypeScript configuration
-├── postcss.config.mjs          # PostCSS configuration
-├── eslint.config.mjs           # ESLint configuration
-├── LICENSE                     # MIT License
-└── README.md                   # Project documentation
+│   └── logo.png                        # Brand logo
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico                 # Site favicon
+│   │   ├── icon.svg                    # App icon
+│   │   ├── globals.css                 # Global styles with animations
+│   │   ├── layout.tsx                  # Root layout with metadata
+│   │   └── page.tsx                    # Main page with all sections
+│   ├── components/
+│   │   ├── sections/
+│   │   │   ├── Hero.tsx                # Full-screen hero section
+│   │   │   ├── Features.tsx            # Feature cards grid
+│   │   │   ├── Showcase.tsx            # Vertical story flow
+│   │   │   ├── Community.tsx           # Testimonials section
+│   │   │   ├── Highlight.tsx           # Bold statement section
+│   │   │   ├── Download.tsx            # CTA download section
+│   │   │   ├── FAQ.tsx                 # Accordion FAQ section
+│   │   │   ├── Contact.tsx             # Contact form & info
+│   │   │   └── Footer.tsx              # Multi-column footer
+│   │   └── ui/
+│   │       ├── Button.tsx              # Reusable button component
+│   │       ├── Card.tsx                # Soft dark card component
+│   │       ├── Navbar.tsx              # Minimal floating navbar
+│   │       ├── PhoneMockup.tsx         # Phone frame component
+│   │       ├── SectionContainer.tsx    # Section wrapper
+│   │       ├── TimelineItem.tsx        # Timeline item component
+│   │       └── Icons.tsx               # SVG icon components
+│   └── lib/
+│       └── config.ts                   # Configuration file
+├── package.json                        # Dependencies
+├── package-lock.json                   # Dependency lock file
+├── next.config.ts                      # Next.js configuration
+├── next-env.d.ts                       # Next.js TypeScript declarations
+├── tsconfig.json                       # TypeScript configuration
+├── postcss.config.mjs                  # PostCSS configuration
+├── eslint.config.mjs                   # ESLint configuration
+├── LICENSE                             # MIT License
+└── README.md                           # Project documentation
 ```
 
 ## Contributors

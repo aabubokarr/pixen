@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import PhoneMockup from "@/components/ui/PhoneMockup";
-import { BASE_PATH } from "@/components/lib/config";
+import { BASE_PATH } from "@/lib/config";
 
 export default function Hero() {
   const screenshots = [

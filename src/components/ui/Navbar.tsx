@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Button from "@/components/ui/Button";
-import { BASE_PATH } from "@/components/lib/config";
+import { BASE_PATH } from "@/lib/config";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
